@@ -10,6 +10,14 @@ class Ustanova extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'naziv_ustanove',
+        'adresa',
+        'grad',
+        'broj_zaposlenih',
+        'website'
+    ];
+
     public function doktori()
     {
         return $this->hasMany(Doktor::class);
