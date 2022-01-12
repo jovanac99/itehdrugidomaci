@@ -22,7 +22,7 @@ class DoktorFactory extends Factory
                 'Interna medicina', 'Pedijatrija', 'Neurologija',
                 'Opsta hirurgija', 'Oftamologija', 'Dermatovenerologija', 'Radiologija', 'Imunologija', 'Sportska medicina'
             )),
-            'ust_id' => Ustanova::factory()
+            'ustanova_id' => Ustanova::factory()
         ];
     }
 }

@@ -19,7 +19,7 @@ class CreateDoktorsTable extends Migration
             $table->string('prezime');
             $table->bigInteger('jmbg');
             $table->string('spec');
-            $table->foreignId('ust_id')->constrained('ustanovas');
+            $table->foreignId('ustanova_id')->constrained('ustanovas');
             $table->timestamps();
         });
     }
